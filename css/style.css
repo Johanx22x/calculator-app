@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #f5f5f5;
+    --heading-color: #292922;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    width: 370px;
+    margin: 30px auto 0px auto;
+}
+
+main {
+    width: 370px;
+    margin: 30px auto 0px auto;
+}
+
+#logo {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#calculator-body {
+    background-color: #424242;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#title {
+    color: var(--bg-color);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#result-box {
+    background-color: lightblue;
+    border-radius: 15px;
+    padding-right: 10px;
+}
+
+#button-box {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.small-button {
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+.medium-button {
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 3px;
+    width: 75px;
+    height: 50px;
+}
+
+.big-button {
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 3px;
+    width: 110px;
+    height: 50px;
+}
+
+#result {
+    text-align: right;
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#footer-text {
+    text-align: right;
+    color: var(--bg-color);
+    font-weight: 300;
+    font-size: 12px;
+    margin-right: 10px;
+}
